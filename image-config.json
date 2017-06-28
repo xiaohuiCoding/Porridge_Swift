@@ -1,0 +1,16 @@
+{
+	"items": [
+
+		{
+			"type" : "assets",
+			"sourcePath": "./sourceImages/assets" ,
+			"destPath" : "./Porridge_Swift/Assets.xcassets"
+		},
+		{
+			"type" : "icon",
+			"sourcePath": "./sourceImages/icon" ,
+			"destPath" : "./Porridge_Swift/Assets.xcassets",
+			"name" : "AppIcon"
+		}
+	]
+}

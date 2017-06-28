@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B8A1D881F039A3C00AA4E9E /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8A1D871F039A3C00AA4E9E /* R.generated.swift */; };
+		4B8A1D911F03A4EA00AA4E9E /* fish.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B8A1D901F03A4EA00AA4E9E /* fish.png */; };
+		4B8FD69A1F03966300B110A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8FD6991F03966300B110A9 /* AppDelegate.swift */; };
+		4B8FD69C1F03966300B110A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8FD69B1F03966300B110A9 /* ViewController.swift */; };
+		4B8FD69F1F03966300B110A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B8FD69D1F03966300B110A9 /* Main.storyboard */; };
+		4B8FD6A11F03966300B110A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B8FD6A01F03966300B110A9 /* Assets.xcassets */; };
+		4B8FD6A41F03966300B110A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B8FD6A21F03966300B110A9 /* LaunchScreen.storyboard */; };
+		4B8FD6AF1F03966300B110A9 /* Porridge_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8FD6AE1F03966300B110A9 /* Porridge_SwiftTests.swift */; };
+		4B8FD6BA1F03966300B110A9 /* Porridge_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8FD6B91F03966300B110A9 /* Porridge_SwiftUITests.swift */; };
+		6F1BA29199532C40789FFC82 /* Pods_Porridge_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8305960FA523369F31763B61 /* Pods_Porridge_Swift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B8FD6AB1F03966300B110A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B8FD68E1F03966300B110A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B8FD6951F03966300B110A9;
+			remoteInfo = Porridge_Swift;
+		};
+		4B8FD6B61F03966300B110A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B8FD68E1F03966300B110A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B8FD6951F03966300B110A9;
+			remoteInfo = Porridge_Swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F06FC0603C40A49505CFE23 /* Pods-Porridge_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Porridge_Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Porridge_Swift/Pods-Porridge_Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		4B8A1D871F039A3C00AA4E9E /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		4B8A1D901F03A4EA00AA4E9E /* fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fish.png; sourceTree = "<group>"; };
+		4B8FD6961F03966300B110A9 /* Porridge_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Porridge_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8FD6991F03966300B110A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B8FD69B1F03966300B110A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4B8FD69E1F03966300B110A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B8FD6A01F03966300B110A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B8FD6A31F03966300B110A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B8FD6A51F03966300B110A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B8FD6AA1F03966300B110A9 /* Porridge_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Porridge_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8FD6AE1F03966300B110A9 /* Porridge_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Porridge_SwiftTests.swift; sourceTree = "<group>"; };
+		4B8FD6B01F03966300B110A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B8FD6B51F03966300B110A9 /* Porridge_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Porridge_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8FD6B91F03966300B110A9 /* Porridge_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Porridge_SwiftUITests.swift; sourceTree = "<group>"; };
+		4B8FD6BB1F03966300B110A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8305960FA523369F31763B61 /* Pods_Porridge_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Porridge_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D486728DEACF41A51F676D91 /* Pods-Porridge_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Porridge_Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-Porridge_Swift/Pods-Porridge_Swift.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B8FD6931F03966300B110A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F1BA29199532C40789FFC82 /* Pods_Porridge_Swift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8FD6A71F03966300B110A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8FD6B21F03966300B110A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F9F4E6A4D30297FD65760BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8305960FA523369F31763B61 /* Pods_Porridge_Swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B8A1D8F1F03A4EA00AA4E9E /* SingleImages */ = {
+			isa = PBXGroup;
+			children = (
+				4B8A1D901F03A4EA00AA4E9E /* fish.png */,
+			);
+			path = SingleImages;
+			sourceTree = "<group>";
+		};
+		4B8FD68D1F03966300B110A9 = {
+			isa = PBXGroup;
+			children = (
+				4B8A1D871F039A3C00AA4E9E /* R.generated.swift */,
+				4B8FD6981F03966300B110A9 /* Porridge_Swift */,
+				4B8FD6AD1F03966300B110A9 /* Porridge_SwiftTests */,
+				4B8FD6B81F03966300B110A9 /* Porridge_SwiftUITests */,
+				4B8FD6971F03966300B110A9 /* Products */,
+				D841D3C5F97BC9908EDCA3A8 /* Pods */,
+				0F9F4E6A4D30297FD65760BE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4B8FD6971F03966300B110A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B8FD6961F03966300B110A9 /* Porridge_Swift.app */,
+				4B8FD6AA1F03966300B110A9 /* Porridge_SwiftTests.xctest */,
+				4B8FD6B51F03966300B110A9 /* Porridge_SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B8FD6981F03966300B110A9 /* Porridge_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				4B8FD6991F03966300B110A9 /* AppDelegate.swift */,
+				4B8FD69B1F03966300B110A9 /* ViewController.swift */,
+				4B8FD69D1F03966300B110A9 /* Main.storyboard */,
+				4B8FD6A01F03966300B110A9 /* Assets.xcassets */,
+				4B8FD6A21F03966300B110A9 /* LaunchScreen.storyboard */,
+				4B8FD6A51F03966300B110A9 /* Info.plist */,
+				4B8A1D8F1F03A4EA00AA4E9E /* SingleImages */,
+			);
+			path = Porridge_Swift;
+			sourceTree = "<group>";
+		};
+		4B8FD6AD1F03966300B110A9 /* Porridge_SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B8FD6AE1F03966300B110A9 /* Porridge_SwiftTests.swift */,
+				4B8FD6B01F03966300B110A9 /* Info.plist */,
+			);
+			path = Porridge_SwiftTests;
+			sourceTree = "<group>";
+		};
+		4B8FD6B81F03966300B110A9 /* Porridge_SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B8FD6B91F03966300B110A9 /* Porridge_SwiftUITests.swift */,
+				4B8FD6BB1F03966300B110A9 /* Info.plist */,
+			);
+			path = Porridge_SwiftUITests;
+			sourceTree = "<group>";
+		};
+		D841D3C5F97BC9908EDCA3A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F06FC0603C40A49505CFE23 /* Pods-Porridge_Swift.debug.xcconfig */,
+				D486728DEACF41A51F676D91 /* Pods-Porridge_Swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B8FD6951F03966300B110A9 /* Porridge_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B8FD6BE1F03966300B110A9 /* Build configuration list for PBXNativeTarget "Porridge_Swift" */;
+			buildPhases = (
+				439BD88ECF3B30A84A4F17CB /* [CP] Check Pods Manifest.lock */,
+				4B8A1D861F03994900AA4E9E /* ShellScript */,
+				4B8FD6921F03966300B110A9 /* Sources */,
+				4B8FD6931F03966300B110A9 /* Frameworks */,
+				4B8FD6941F03966300B110A9 /* Resources */,
+				913601BB7E47900E17F9BB19 /* [CP] Embed Pods Frameworks */,
+				6E52DAAE79499027B330A26D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Porridge_Swift;
+			productName = Porridge_Swift;
+			productReference = 4B8FD6961F03966300B110A9 /* Porridge_Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B8FD6A91F03966300B110A9 /* Porridge_SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B8FD6C11F03966300B110A9 /* Build configuration list for PBXNativeTarget "Porridge_SwiftTests" */;
+			buildPhases = (
+				4B8FD6A61F03966300B110A9 /* Sources */,
+				4B8FD6A71F03966300B110A9 /* Frameworks */,
+				4B8FD6A81F03966300B110A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B8FD6AC1F03966300B110A9 /* PBXTargetDependency */,
+			);
+			name = Porridge_SwiftTests;
+			productName = Porridge_SwiftTests;
+			productReference = 4B8FD6AA1F03966300B110A9 /* Porridge_SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B8FD6B41F03966300B110A9 /* Porridge_SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B8FD6C41F03966300B110A9 /* Build configuration list for PBXNativeTarget "Porridge_SwiftUITests" */;
+			buildPhases = (
+				4B8FD6B11F03966300B110A9 /* Sources */,
+				4B8FD6B21F03966300B110A9 /* Frameworks */,
+				4B8FD6B31F03966300B110A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B8FD6B71F03966300B110A9 /* PBXTargetDependency */,
+			);
+			name = Porridge_SwiftUITests;
+			productName = Porridge_SwiftUITests;
+			productReference = 4B8FD6B51F03966300B110A9 /* Porridge_SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B8FD68E1F03966300B110A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = XIAOHUI;
+				TargetAttributes = {
+					4B8FD6951F03966300B110A9 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					4B8FD6A91F03966300B110A9 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4B8FD6951F03966300B110A9;
+					};
+					4B8FD6B41F03966300B110A9 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4B8FD6951F03966300B110A9;
+					};
+				};
+			};
+			buildConfigurationList = 4B8FD6911F03966300B110A9 /* Build configuration list for PBXProject "Porridge_Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B8FD68D1F03966300B110A9;
+			productRefGroup = 4B8FD6971F03966300B110A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B8FD6951F03966300B110A9 /* Porridge_Swift */,
+				4B8FD6A91F03966300B110A9 /* Porridge_SwiftTests */,
+				4B8FD6B41F03966300B110A9 /* Porridge_SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B8FD6941F03966300B110A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8FD6A41F03966300B110A9 /* LaunchScreen.storyboard in Resources */,
+				4B8A1D911F03A4EA00AA4E9E /* fish.png in Resources */,
+				4B8FD6A11F03966300B110A9 /* Assets.xcassets in Resources */,
+				4B8FD69F1F03966300B110A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8FD6A81F03966300B110A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8FD6B31F03966300B110A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		439BD88ECF3B30A84A4F17CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4B8A1D861F03994900AA4E9E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" \"$SRCROOT\"";
+		};
+		6E52DAAE79499027B330A26D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Porridge_Swift/Pods-Porridge_Swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		913601BB7E47900E17F9BB19 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Porridge_Swift/Pods-Porridge_Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B8FD6921F03966300B110A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8FD69C1F03966300B110A9 /* ViewController.swift in Sources */,
+				4B8FD69A1F03966300B110A9 /* AppDelegate.swift in Sources */,
+				4B8A1D881F039A3C00AA4E9E /* R.generated.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8FD6A61F03966300B110A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8FD6AF1F03966300B110A9 /* Porridge_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8FD6B11F03966300B110A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8FD6BA1F03966300B110A9 /* Porridge_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B8FD6AC1F03966300B110A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B8FD6951F03966300B110A9 /* Porridge_Swift */;
+			targetProxy = 4B8FD6AB1F03966300B110A9 /* PBXContainerItemProxy */;
+		};
+		4B8FD6B71F03966300B110A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B8FD6951F03966300B110A9 /* Porridge_Swift */;
+			targetProxy = 4B8FD6B61F03966300B110A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B8FD69D1F03966300B110A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B8FD69E1F03966300B110A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B8FD6A21F03966300B110A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B8FD6A31F03966300B110A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B8FD6BC1F03966300B110A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B8FD6BD1F03966300B110A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B8FD6BF1F03966300B110A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F06FC0603C40A49505CFE23 /* Pods-Porridge_Swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Porridge_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XH.Porridge-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4B8FD6C01F03966300B110A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D486728DEACF41A51F676D91 /* Pods-Porridge_Swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Porridge_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XH.Porridge-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4B8FD6C21F03966300B110A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Porridge_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XH.Porridge-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Porridge_Swift.app/Porridge_Swift";
+			};
+			name = Debug;
+		};
+		4B8FD6C31F03966300B110A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Porridge_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XH.Porridge-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Porridge_Swift.app/Porridge_Swift";
+			};
+			name = Release;
+		};
+		4B8FD6C51F03966300B110A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Porridge_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XH.Porridge-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Porridge_Swift;
+			};
+			name = Debug;
+		};
+		4B8FD6C61F03966300B110A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Porridge_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XH.Porridge-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Porridge_Swift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B8FD6911F03966300B110A9 /* Build configuration list for PBXProject "Porridge_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8FD6BC1F03966300B110A9 /* Debug */,
+				4B8FD6BD1F03966300B110A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B8FD6BE1F03966300B110A9 /* Build configuration list for PBXNativeTarget "Porridge_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8FD6BF1F03966300B110A9 /* Debug */,
+				4B8FD6C01F03966300B110A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B8FD6C11F03966300B110A9 /* Build configuration list for PBXNativeTarget "Porridge_SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8FD6C21F03966300B110A9 /* Debug */,
+				4B8FD6C31F03966300B110A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B8FD6C41F03966300B110A9 /* Build configuration list for PBXNativeTarget "Porridge_SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8FD6C51F03966300B110A9 /* Debug */,
+				4B8FD6C61F03966300B110A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B8FD68E1F03966300B110A9 /* Project object */;
+}
