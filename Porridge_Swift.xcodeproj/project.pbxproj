@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B5571121F04FFEF0074A922 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5571111F04FFEF0074A922 /* UIImage+Extension.swift */; };
 		4B8A1D881F039A3C00AA4E9E /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8A1D871F039A3C00AA4E9E /* R.generated.swift */; };
 		4B8A1D911F03A4EA00AA4E9E /* fish.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B8A1D901F03A4EA00AA4E9E /* fish.png */; };
 		4B8FD69A1F03966300B110A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8FD6991F03966300B110A9 /* AppDelegate.swift */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		2F06FC0603C40A49505CFE23 /* Pods-Porridge_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Porridge_Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Porridge_Swift/Pods-Porridge_Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		4B5571111F04FFEF0074A922 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		4B8A1D871F039A3C00AA4E9E /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		4B8A1D901F03A4EA00AA4E9E /* fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fish.png; sourceTree = "<group>"; };
 		4B8FD6961F03966300B110A9 /* Porridge_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Porridge_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,6 +129,7 @@
 			children = (
 				4B8FD6991F03966300B110A9 /* AppDelegate.swift */,
 				4B8FD69B1F03966300B110A9 /* ViewController.swift */,
+				4B5571111F04FFEF0074A922 /* UIImage+Extension.swift */,
 				4B8FD69D1F03966300B110A9 /* Main.storyboard */,
 				4B8FD6A01F03966300B110A9 /* Assets.xcassets */,
 				4B8FD6A21F03966300B110A9 /* LaunchScreen.storyboard */,
@@ -177,6 +180,7 @@
 				4B8FD6941F03966300B110A9 /* Resources */,
 				913601BB7E47900E17F9BB19 /* [CP] Embed Pods Frameworks */,
 				6E52DAAE79499027B330A26D /* [CP] Copy Pods Resources */,
+				4B5571131F05049F0074A922 /* Run Script Swiftgen */,
 			);
 			buildRules = (
 			);
@@ -313,6 +317,20 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		4B5571131F05049F0074A922 /* Run Script Swiftgen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script Swiftgen";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftgen >/dev/null; then\nswiftgen strings ${SCRIPT_INPUT_FILE_0} --output ${SCRIPT_OUTPUT_FILE_0}\nelse\necho \"SwiftGen does not exist, download from https://github.com/AliSoftware/SwiftGen\"\nfi";
+		};
 		4B8A1D861F03994900AA4E9E /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -366,6 +384,7 @@
 				4B8FD69C1F03966300B110A9 /* ViewController.swift in Sources */,
 				4B8FD69A1F03966300B110A9 /* AppDelegate.swift in Sources */,
 				4B8A1D881F039A3C00AA4E9E /* R.generated.swift in Sources */,
+				4B5571121F04FFEF0074A922 /* UIImage+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

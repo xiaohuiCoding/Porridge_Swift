@@ -12,11 +12,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         
-        let icon = R.image.fish()
         let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 100, height: 100))
-        imageView.image = icon
+//        imageView.image = UIImage(assetsIdentifier: .fish) // 手动
+        imageView.image = R.image.fish() // 自动
         imageView.center = view.center
         view.addSubview(imageView)
     }
