@@ -180,7 +180,6 @@
 				4B8FD6941F03966300B110A9 /* Resources */,
 				913601BB7E47900E17F9BB19 /* [CP] Embed Pods Frameworks */,
 				6E52DAAE79499027B330A26D /* [CP] Copy Pods Resources */,
-				4B5571131F05049F0074A922 /* Run Script Swiftgen */,
 			);
 			buildRules = (
 			);
@@ -316,20 +315,6 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
-		};
-		4B5571131F05049F0074A922 /* Run Script Swiftgen */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Run Script Swiftgen";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if which swiftgen >/dev/null; then\nswiftgen strings ${SCRIPT_INPUT_FILE_0} --output ${SCRIPT_OUTPUT_FILE_0}\nelse\necho \"SwiftGen does not exist, download from https://github.com/AliSoftware/SwiftGen\"\nfi";
 		};
 		4B8A1D861F03994900AA4E9E /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
